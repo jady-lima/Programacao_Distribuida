@@ -1,8 +1,7 @@
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-public interface TemperatureConverter extends Remote
-{
+public interface TemperatureConverter extends Remote {
     double CelsiusParaFahrenheit(double celsius) throws RemoteException;
     double CelsiusParaKelvin(double celsius) throws RemoteException;
     double FahrenheitParaCelsius(double fahrenheit) throws RemoteException;

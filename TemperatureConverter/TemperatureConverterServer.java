@@ -1,11 +1,9 @@
 import java.net.MalformedURLException;
 import java.rmi.Naming;
-import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 
-public class TemperatureConverterServer 
-{
+public class TemperatureConverterServer {
     public static void main(String[] args) {
         try {
             LocateRegistry.createRegistry(1029);

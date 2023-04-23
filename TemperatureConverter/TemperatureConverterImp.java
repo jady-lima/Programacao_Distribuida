@@ -1,8 +1,7 @@
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class TemperatureConverterImp extends UnicastRemoteObject implements TemperatureConverter
-{
+public class TemperatureConverterImp extends UnicastRemoteObject implements TemperatureConverter {
     public TemperatureConverterImp() throws RemoteException
     {
         super();
