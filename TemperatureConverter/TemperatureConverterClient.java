@@ -79,7 +79,7 @@ public static final double MINKELVIN = 0;
                     }
                 }
                 
-                //Nenhuma opção acima
+                //Nenhuma das opçoes acima
                 else
                 {
                     System.out.println("Não é possivel realizar a conversão solicitada. Tente novamente.");
